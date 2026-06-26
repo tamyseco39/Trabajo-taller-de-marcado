@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huellas a casa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/estilos.css">
     
 </head>
 <body>
     <header>
-        <img src="../Img/images.jfif" alt="logo huellas  a casa"> 
+        <img src="./Img/Logo.png" class="logo" alt="logo huellas  a casa"> 
         <h1>Huellas a casa</h1>
     </header>
     <nav>
@@ -19,16 +22,16 @@
             <a href="./contacto.html">CONTACTO</a>
         </nav>
         <main>
-            <section class="card">
-                <img src="./Img/castracionperroygato.jfif" class="card-img-top" alt="castracion perros y gatos" height="200" >
-                <div class="card-body">
-                    <h2 class="card-title">Para turnos de castraciones</h2>
+            <section>
+                <article class="card">
+                <img src="./Img/castracionperroygato.jfif" class="card-img-top" alt="castracion perros y gatos" >
+                <h2 class="card-title">Para turnos de castraciones</h2>
                     <p class="card-text">Solicitá tu turno de castración a través de nuestro WhatsApp.</p>
                     <a href="https://wa.me/5491123456789" target="_blank">WhatsApp</a>
-                </div>
+                </article>
                 </section>
             <section id="formulario">
-            <h3>Necesitamos tu ayuda..Contactanos!</h3>
+            <h3>Contactanos!</h3>
 
         <form action="#" method="post">
             <label for="nombre">Nombre:</label>
@@ -36,17 +39,23 @@
             <br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="ejmplo@gmail.com" required><br>
-            <label for="edad">Edad:</label>
-            <input type="number" id="edad" name="edad" min="18" max="100" required><br>
-            <label for="telefono">Celular:</label>
-            <input type="tel" id="telefono" name="telefono" placeholder="1132132132" required> <br>
-            <label for="mensaje">Contanos de vos:</label>
-            <textarea name="text" id="mensaje"  rows="5" placeholder="¿como te gustaria ayudar"></textarea><br>
+            <select name="consulta" id="consulta">
+            <label for="consulta" required >Consulta</label>
+            <option value="">elegir consulta</option>
+            <option value="Cgral">Contacto general</option>
+            <option value="Adop">Adopciones</option>
+            <option value="Vol">Voluntariado</option>
+            <option value="Don">Donaciones</option>
+            <option value="Alr">Alertas</option>
+            <label for="mensaje">Contanos:</label>
+            </select><br>
+            <label for="mensaje" id="mensaje">Contanos</label><br>
+            <textarea name="text" id="mensaje"  rows="5" placeholder="..."></textarea><br>
             <button type="submit"> Enviar </button>
             </form>
             </section>
 
-    <section id="contacto">
+    <aside id="contacto">
         <h3>Estamos alerta!</h3> 
         <p>¿Querés adoptar, colaborar, realizar una donación o informar sobre un animal perdido o en situación de abandono? En Huellas a Casa estamos siempre dispuestos a escuchar y ayudar.
         Podés comunicarte con nosotros a través de nuestros medios de contacto, seguirnos en nuestras redes sociales para conocer nuestras actividades, campañas y novedades.
@@ -58,7 +67,7 @@
     <li><a href="https://www.facebook.com/" target="_blank">Nuestro facebook</a></li>
     <li><a href="https://wa.me/5491123456789" target="_blank">WhatsApp</a></li>
     </ul>
-        </section>
+    </aside>
         </main>
 <footer><small>&copy;2026 - Derechos Reservados. Diseñado y Desarrollado por TS</small></footer>  
 </body>
