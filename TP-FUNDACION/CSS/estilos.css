@@ -94,15 +94,6 @@ border-radius: 1rem;
     justify-content: center;
 }
 
-/*DONACIONES*/
-
-#donaciones {
-    border-top: 1px solid var(--color-acento);
-    padding-top: 2rem;
-    width: 75%;
-    margin-top: 2rem;
-}
-
 /*CARDS*/
 
 .card{
