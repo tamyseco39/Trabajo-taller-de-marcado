@@ -230,6 +230,17 @@ aside {
     border-radius: 1rem;
     box-shadow: 0 0.2rem 0.6rem;
 }
+/*aside #donaciones*/
+#donaciones {
+    background-color: #e8f8ef;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-top: 0.2rem solid var(--color-acento);
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.15);
+}
+
 /* FLEXBOX */
 
 nav {
