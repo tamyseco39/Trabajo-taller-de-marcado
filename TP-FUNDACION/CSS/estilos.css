@@ -44,10 +44,9 @@ header {
     border-radius: 2rem;
     
 }
-.logo{
-
-width:10rem ;
-border-radius: 3rem ;}
+header img{
+width: 5rem ;
+border-radius: 1rem ;}
 
 /*TITULOS*/
 
