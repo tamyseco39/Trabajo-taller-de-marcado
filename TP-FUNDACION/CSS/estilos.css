@@ -51,7 +51,7 @@ border-radius: 1rem ;}
 /*TITULOS*/
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color:var(--color-texto);
     margin-top: 1rem;
 }
@@ -98,10 +98,11 @@ border-radius: 1rem;
 .card{
 
 background-color: var(--color-tarjeta);
-width: 25rem;
+width: 100%;
+max-width: 25rem;
 border-radius: 1rem;
 overflow: hidden;
-box-shadow: 0 0.1rem 0.3rem;
+box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.459);
 text-align: center;
 padding-bottom: 1rem;
 margin: 1rem auto;
@@ -146,7 +147,8 @@ article h3 {
     font-size: 1.4rem;
 }
 article img {
-    width: 15rem;
+    width: 100%;
+    max-width: 15rem;
     border-radius: 1rem;
     margin: 1rem 0;
 }
