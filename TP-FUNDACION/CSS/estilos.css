@@ -303,7 +303,7 @@ body.modo-oscuro{
     --color-tarjeta: #797aa7;
     --color-section:#51515f77;
 }
-/*boton*/
+/*boton de modo oscuro*/
 #btn-modo{
     position: fixed;
     top: 4rem;
